@@ -17,5 +17,3 @@ print("Ebani pizdec")
 
 for i in range(stop):
     print("hi")
-
-vffdv
