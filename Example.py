@@ -13,4 +13,7 @@ print("Commit №5")
 
 print("Vsmisle bleat?")
 
+print("Ebani pizdec")
 
+for i in range(stop):
+    print("hi")
