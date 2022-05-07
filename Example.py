@@ -20,3 +20,5 @@ for i in range(10):
 
 print("Commit to main branch")
 print("I make the branch \"testing\"")
+
+print("Skivalka fsdfsdfdsfsdf")
