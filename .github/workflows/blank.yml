@@ -33,5 +33,5 @@ jobs:
       - name: step2
         uses: actions/upload-artifact@v3
         with:
-         name: production-build
-         path: /file.txt
+          name: production-build
+          path: /
