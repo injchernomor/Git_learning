@@ -35,3 +35,15 @@ jobs:
         with:
           name: production-build
           path: file.txt
+  
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: production-build
+      - name: Deploy to server
+        run: |
+          cat file.txt
